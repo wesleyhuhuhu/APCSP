@@ -5,11 +5,42 @@
     <title>Wesley's Homepage</title>
   </head>
   <body>
-    <a href="index.html">Home</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="aboutme.html">About Me</a>
-    <h1>This is Wesley's Home Page!</h1>
+  <style>
+    body {margin:0;}
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #4CAF50;
+}
+  </style>
+    <ul>
+    <li><a href="index.html">Homepage</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="aboutme.html">About Me</a></li>
+    </ul>
+    <p>asdasdasdasd</p>
+    <h2>This is Wesley's Home Page!</h2>
     <img src="images/home.jpg" height="250">
-    
   </body>
 </html>
